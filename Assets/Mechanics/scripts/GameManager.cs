@@ -21,9 +21,12 @@ public class GameManager : MonoBehaviour
     public Text scoreText;
 
 
+   
     private void Awake()
     {
         instance = this;
+
+      
     }
 
 
@@ -46,6 +49,8 @@ public class GameManager : MonoBehaviour
                 theMusic.Play();
             }
         }
+
+       
     }
 
     public void NoteHit()
