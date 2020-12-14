@@ -45,3 +45,6 @@ TagManager:
   - name: Arrows
     uniqueID: 73958453
     locked: 0
+  - name: animation
+    uniqueID: 3915197863
+    locked: 0

@@ -27,11 +27,18 @@ public class SpriteChange : MonoBehaviour
             scoreState = 1;
         }
 
-        if (gm.currentScore >= 10 && scoreState == 1)
+        if (gm.currentScore >= 20 && scoreState == 1)
         {
             theAnim.SetTrigger("playDance1");
             scoreState = 2;
         }
+
+        if (gm.currentScore >= 40 && scoreState == 2)
+        {
+            theAnim.SetTrigger("playDance2");
+            scoreState = 3;
+        }
+
 
 
     }
