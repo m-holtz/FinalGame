@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     public void NoteHit()
     {
-        Debug.Log("Hit Note");
+        //Debug.Log("Hit Note");
 
             currentScore += scorePerNote; //adds score
             scoreText.text = "Score: " + currentScore;
@@ -64,6 +64,6 @@ public class GameManager : MonoBehaviour
 
     public void NoteMissed()
     {
-        Debug.Log("Missed Note");
+       // Debug.Log("Missed Note");
     }
 }
